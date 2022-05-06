@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,5 +21,24 @@ a {
 }
 
 .header {
+  background-color: white;
   box-shadow: -0.2px 3px 16px #eaeaea;
+  overflow: hidden;
+}
+
+.hero-image {
+  background: url(../public/wallpaperflare.com_wallpaper.jpg);
+  width: 100%;
+}
+
+.feature-bg {
+  width: 100vw;
+  height: 90vh;
+  background: url(../public//BG.png);
+}
+
+.testimonials-bg {
+  width: 100vw;
+  height: 70vh;
+  background: url(../public/testimonials/Group\ 297.png);
 }

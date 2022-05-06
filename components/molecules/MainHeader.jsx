@@ -3,18 +3,18 @@ import logo from "../../public/Frame 732.png";
 import searchIcon from "../../public/search.png";
 const MainHeader = () => {
   return (
-    <header className="flex justify-between items-center h-[100px] w-screen px-24 ">
+    <header className="flex justify-between items-center h-[100px] w-full px-24 ">
       <div>
         <Image src={logo} alt="tan-logo" />
       </div>
 
-      <div>
+      <div className="flex  justify-between items-center border-[1px] h-[36px] w-1/3 rounded-[3px] pl-3">
         <input
-          className="relative border-[1px] h-[36px] w-[527px] rounded-[3px] pl-3"
           type="text"
           placeholder="Search"
+          className="focus:outline-none text-font500"
         />
-        <div className="fixed top-10 right-[460px]">
+        <div className="pr-5 flex items-center cursor-pointer">
           <Image src={searchIcon} alt="search" />
         </div>
       </div>
