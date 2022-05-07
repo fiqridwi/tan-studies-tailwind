@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @tailwind base;
 @tailwind components;
@@ -41,4 +41,20 @@ a {
   width: 100vw;
   height: 70vh;
   background: url(../public/testimonials/Group\ 297.png);
+}
+
+.footer-bg {
+  width: 100vw;
+
+  background: linear-gradient(
+    180deg,
+    rgba(66, 73, 91, 0.0001) -68.11%,
+    #273341 74.28%
+  );
+}
+
+.footer-line {
+  background: rgba(232, 232, 232, 0.3);
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
