@@ -23,13 +23,13 @@ const StoreSearch = () => {
           </div>
         </div>
 
-        <div className="flex justify-end w-full bg-storeRecBg py-2">
+        <div className="flex justify-end w-full bg-storeRecBg py-2 items-center">
           <p className="text-testiContent text-[14px]">Sort by:</p>
-          <form className="flex items-center">
+          <form className="flex items-center px-2">
             <input
               list="sort"
               name="sort"
-              className="w-36 border-[1px] border-testiContent rounded flex items-center"
+              className="w-20 h-5 rounded-sm border-border border-[1px] flex items-center "
             />
             <datalist id="sort">
               <option value="None" selected>
@@ -41,11 +41,11 @@ const StoreSearch = () => {
               <option value="Price Lowest" />
             </datalist>
           </form>
-          <div className="flex px-2">
-            <div className="mr-2">
+          <div className="flex px-2 items-center">
+            <div className="mr-2 flex items-center">
               <Image src={paperIcon} alt="paper" />
             </div>
-            <div>
+            <div className="flex items-center">
               <Image src={menuIcon} alt="menu" />
             </div>
           </div>

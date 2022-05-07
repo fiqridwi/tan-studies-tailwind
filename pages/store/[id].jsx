@@ -4,6 +4,7 @@ import Footer from "../../components/organisms/Footer";
 import Image from "next/image";
 import tpaBig from "../../public/store/tpa-big.png";
 import star from "../../public/store/Star.png";
+import DescriptionBox from "../../components/molecules/DescriptionBox";
 const Details = () => {
   const router = useRouter();
   const data = router.query;
@@ -11,6 +12,13 @@ const Details = () => {
   return (
     <div>
       <Header />
+      <div className="flex justify-start w-full px-24 pt-5">
+        <p className="text-primary500">Home</p>
+        <p className="text-font50 px-2">{" > "}</p>
+        <p className="text-primary500">SMA</p>
+        <p className="text-font50 px-2">{" > "}</p>
+        <p className="text-font50 ">TPA</p>
+      </div>
       <div className="flex items-center px-24 py-10">
         <div className="mr-5">
           <Image src={tpaBig} alt="best-sales-book" />
@@ -62,14 +70,29 @@ const Details = () => {
               </div>
               <p className="text-[12px] text-storeRecRate">(32)</p>
             </div>
-            <div className="py-8">
-              <button className="uppercase bg-primary500 hover:bg-primary50 text-white w-full py-2 rounded ">
+            <div className="py-8 flex justify-between">
+              <div className="rounded bg-white text-font50 flex justify-between border-border border-2 items-center w-1/3 mr-3 ">
+                <div className="w-full h-full text-center cursor-pointer hover:bg-primary500 hover:text-white flex items-center font-bold text-[20px] justify-center rounded">
+                  <p>-</p>
+                </div>
+                <input
+                  className="border-border border-x-2 w-16 text-testiName text-center outline-none"
+                  type="number"
+                />
+
+                <div className="w-full h-full text-center cursor-pointer hover:bg-primary500 hover:text-white flex items-center font-bold text-[20px] justify-center rounded">
+                  <p>+</p>
+                </div>
+              </div>
+              <button className="uppercase bg-primary500 hover:bg-primary50 text-white w-2/3 py-2 rounded ">
                 beli
               </button>
             </div>
           </div>
         </div>
       </div>
+      <DescriptionBox />
+
       <Footer />
     </div>
   );

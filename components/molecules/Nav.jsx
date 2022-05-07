@@ -7,7 +7,10 @@ const Nav = () => {
       </Link>
 
       <a className="hover:text-primary500 cursor-pointer">tentang kami</a>
-      <a className="hover:text-primary500 cursor-pointer">produk kami</a>
+      <Link href="/our-products">
+        <a className="hover:text-primary500 cursor-pointer">produk kami</a>
+      </Link>
+
       <Link href="/store">
         <a className="hover:text-primary500 cursor-pointer">e-store</a>
       </Link>

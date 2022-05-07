@@ -53,6 +53,16 @@ a {
   );
 }
 
+.our-products-bg {
+  background: linear-gradient(0deg, #ffffff 0%, #edf7ed 51.98%, #ffffff 100%);
+}
+
+.our-products-pattern {
+  width: 100vw;
+  height: 90vh;
+  background: url(../public/products//product-page-bg.png);
+}
+
 .footer-line {
   background: rgba(232, 232, 232, 0.3);
   mix-blend-mode: normal;
