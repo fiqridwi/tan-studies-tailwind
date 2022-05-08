@@ -32,9 +32,7 @@ const StoreSearch = () => {
               className="w-20 h-5 rounded-sm border-border border-[1px] flex items-center "
             />
             <datalist id="sort">
-              <option value="None" selected>
-                None
-              </option>
+              <option value="None">None</option>
               <option value="Date Newest" />
               <option value="Date Oldest" />
               <option value="Price Highest" />

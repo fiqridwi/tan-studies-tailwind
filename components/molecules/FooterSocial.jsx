@@ -1,6 +1,6 @@
 import facebook from "../../public/footer/Facebook.png";
 import twitter from "../../public/footer/Linked.png";
-import google from "../../public/footer/Google.png";
+import googlePlus from "../../public/footer/googlePlus.png";
 import youtube from "../../public/footer/Youtube.png";
 import pinterest from "../../public/footer/Pinterest.png";
 import linkedin from "../../public/footer/Linked (1).png";
@@ -18,7 +18,7 @@ const FooterSocial = () => {
         <Image src={twitter} alt="twitter" />
       </div>
       <div className="px-2">
-        <Image src={google} alt="google" />
+        <Image src={googlePlus} alt="google-plus" />
       </div>
       <div className="px-2">
         <Image src={youtube} alt="youtube" />

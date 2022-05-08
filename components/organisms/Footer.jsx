@@ -1,7 +1,5 @@
 import React from "react";
 import Sponsor from "../atoms/Sponsor";
-import Image from "next/image";
-
 import FooterMenu from "../molecules/FooterMenu";
 import FooterSocial from "../molecules/FooterSocial";
 
