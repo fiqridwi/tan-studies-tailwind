@@ -24,6 +24,7 @@ a {
   background-color: white;
   box-shadow: -0.2px 3px 16px #eaeaea;
   overflow: hidden;
+  z-index: 100;
 }
 
 .hero-image {

@@ -1,7 +1,8 @@
 import Link from "next/link";
+
 const Nav = () => {
   return (
-    <nav className="h-[79px] uppercase border-t-[1px] flex justify-between items-center border-font50 border-opacity-10 w-full px-24 text-[16px] text-font500 font-bold leading-5 shadow-lg  ">
+    <nav className="xl:h-[79px] uppercase border-t-[1px] flex justify-between items-center border-font50 border-opacity-10 w-full xl:px-24 text-[16px] text-font500 font-bold leading-5 shadow-lg  ">
       <Link href="/">
         <a className="hover:text-primary500 cursor-pointer">Home</a>
       </Link>
